@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #f1f5f8;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.note-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.notes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.note {
+    width: 240px;
+    height: 300px;
+    margin: 8px;
+    padding: 16px;
+    word-wrap: break-word;
+    border-radius: 10px;
+    background-color: lightyellow;
+    box-shadow: 2px 2px 5px 2px #cacaca;
+}
+
+.note-add {
+    margin: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.note-edit {
+    padding: 4px;
+    cursor: pointer;
+}
+
+.note-delete {
+    padding: 4px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
